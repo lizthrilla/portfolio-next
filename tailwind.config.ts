@@ -7,6 +7,17 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      'blue': '#1db5cb',
+      'yellow': '#fedd32',
+      'gray-dark': '#2b2b2b',
+      'default-text': '#1d1f1f',
+      'light': '#fff',
+    },
+    fontFamily: {
+      'sans-serif': ["Open Sans", 'sans-serif'],
+      'serif-regular': ["Libre Baskerville", 'serif']
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
