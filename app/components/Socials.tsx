@@ -2,31 +2,28 @@ import {
     FaEnvelope,
     FaGithub,
     FaTwitter,
-    FaLinkedin
+    FaLinkedin,
+    FaGit
   } from "react-icons/fa";
 
+  const links = [
+    {name: "LinkedIn", href: "https://www.linkedin.com/in/elizabethtiller/", icon: <FaLinkedin />},
+    {name: "Github", href: "https://github.com/lizthrilla", icon: <FaGithub />},
+    {name: "eMail", href: "mailto:elizabeth.tiller@gmail.com?Subject=Hello%20again", icon: <FaEnvelope />},
+    {name: "Twitter", href: "https://twitter.com/liztiller", icon: <FaTwitter />},
+  ]
+
   const SocialLinks = () => (
-    <ul className="social">
-    <li>
-      <a href="https://www.linkedin.com/in/elizabethtiller/" target="_blank">
-        <FaLinkedin />
-      </a>
-    </li>
-      <li>
-        <a href="https://twitter.com/liztiller" target="_blank">
-          <FaTwitter />
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/lizthrilla" target="_blank">
-          <FaGithub />
-        </a>
-      </li>
-      <li>
-        <a href="mailto:elizabeth.tiller@gmail.com?Subject=Hello%20again">
-          <FaEnvelope />
-        </a>
-    </li>
+    <ul className="social flex flex-row">
+      {
+        links.map((link) => (
+          <li key={link.name} className="hover:text-yellow me-2 pe-1">
+            <a href={link.href} target="_blank">
+              {link.icon}
+            </a>
+          </li>
+        ))
+      }
     </ul>
   );
   
