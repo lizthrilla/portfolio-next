@@ -21,14 +21,8 @@ const About = () => (
           <a className="text-yellow hover:text-blue" href="http://michaelenash.com"> my husband</a> and
           <a className="text-yellow hover:text-blue" href="https://www.midnightlotusdance.com/"> belly dance</a>.
         </p>
-        <div className="flex flex-row justify-between items-center lg:text-2xl">
+        <div className="lg:text-2xl my-2">
           <Socials />
-          <div>
-              <a href="https://docs.google.com/document/d/1FF4tocHbjnaTjyb8wSMrnPlDk6XHfcAxAmOHYXyJ3uY/pub" target="_blank" className="flex items-center" >
-                {/* <FaFileDownload />  */}
-                <p>Resume</p>
-              </a>
-          </div>
         </div>
     </div>
   </section>

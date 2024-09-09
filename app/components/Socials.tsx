@@ -3,7 +3,7 @@ import {
     FaGithub,
     FaTwitter,
     FaLinkedin,
-    FaGit
+    FaDownload
   } from "react-icons/fa";
 
   const links = [
@@ -11,6 +11,7 @@ import {
     {name: "Github", href: "https://github.com/lizthrilla", icon: <FaGithub />},
     {name: "eMail", href: "mailto:elizabeth.tiller@gmail.com?Subject=Hello%20again", icon: <FaEnvelope />},
     {name: "Twitter", href: "https://twitter.com/liztiller", icon: <FaTwitter />},
+    {name: "Resume", href: "https://docs.google.com/document/d/1FF4tocHbjnaTjyb8wSMrnPlDk6XHfcAxAmOHYXyJ3uY/pub", icon: <FaDownload /> },
   ]
 
   const SocialLinks = () => (
