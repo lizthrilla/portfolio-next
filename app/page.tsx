@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "./components/HeroSection/Hero"
 import Navbar from "./components/Navigation/Navbar";
 import About from "./components/About";
+import Resume from "./components/Resume/Resume";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
       </div>
       <About />
+      <Resume />
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a

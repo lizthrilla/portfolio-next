@@ -11,8 +11,9 @@ const config: Config = {
       'blue': '#1db5cb',
       'yellow': '#fedd32',
       'gray-dark': '#2b2b2b',
-      'default-text': '#1d1f1f',
+      'default': '#1d1f1f',
       'light': '#fff',
+      'soft': '#6e7881'
     },
     fontFamily: {
       'sans-serif': ["Open Sans", 'sans-serif'],
