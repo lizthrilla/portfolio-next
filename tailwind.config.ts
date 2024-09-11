@@ -9,10 +9,12 @@ const config: Config = {
   theme: {
     colors: {
       'blue': '#1db5cb',
-      'yellow': '#fedd32',
+      'default': '#1d1f1f',
       'gray-dark': '#2b2b2b',
-      'default-text': '#1d1f1f',
+      'gray-light': '#ebeeee',
       'light': '#fff',
+      'soft': '#6e7881',
+      'yellow': '#fedd32',
     },
     fontFamily: {
       'sans-serif': ["Open Sans", 'sans-serif'],
