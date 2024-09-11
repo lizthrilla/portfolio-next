@@ -4,7 +4,7 @@ import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 const Portfolio = () => {
     return (
     <section id="portfolio" className="bg-gray-light w-full py-10 text-gray-dark flex flex-col items-center justify-center">
-        <h1 className="uppercase text-xl tracking-wide">Some Fun Apps I've Built</h1>
+        <h1 className="uppercase text-xl tracking-wide">Some Fun Apps I Have Built</h1>
         <div className="grid md:grid-cols-4 md:gap-1">
             <div className="grid-span-1">
                 <div className="item-wrap">

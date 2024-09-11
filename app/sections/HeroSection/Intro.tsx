@@ -7,7 +7,7 @@ export default function Intro() {
               Liz Tiller
             </h1>
             <p>
-                I'm a Tampa based <span className="text-yellow">engineering manager</span>, <span className="text-yellow">front end developer</span>, and
+                I am a Tampa based <span className="text-yellow">engineering manager</span>, <span className="text-yellow">front end developer</span>, and
                 <span className="text-yellow"> community organizer,</span> who is passionate about front end development and teaching the next generation of programmers. 
               
             </p>
