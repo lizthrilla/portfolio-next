@@ -1,8 +1,10 @@
 import Image from "next/image";
-import Hero from "./components/HeroSection/Hero"
-import Navbar from "./components/Navigation/Navbar";
-import About from "./components/About";
-import Resume from "./components/Resume/Resume";
+import Hero from "./sections/HeroSection/Hero"
+import Navbar from "./sections/Navigation/Navbar";
+import About from "./sections/About";
+import Resume from "./sections/Resume/Resume";
+// import Portfolio from './sections/Portfolio';
+import Orgs from './sections/Orgs';
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       </div>
       <About />
       <Resume />
+      <Orgs />
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
