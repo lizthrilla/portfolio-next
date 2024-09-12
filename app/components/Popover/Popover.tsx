@@ -4,9 +4,9 @@ import {FaLink, FaGithub} from "react-icons/fa";
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 import { IPortfolio } from '@/app/data/PortfolioData'
 
-const PopOverComponent: React.FC<IPortfolio> = ({appTitle, description, githubLink, imgSrc, link}) => {
+const PopOverComponent: React.FC<IPortfolio> = ({appTitle, description, githubLink, imgSrc, link, key}) => {
     return (
-        <div className="grid-span-1 m-2">
+        <div className="grid-span-1 m-2" key={key}>
             <Popover className="relative flex flex-col items-center">
                 <PopoverButton>{appTitle}</PopoverButton>
                 <Image src={imgSrc} className="w-60 h-60 static" alt={appTitle}/>

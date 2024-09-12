@@ -10,8 +10,8 @@ const Portfolio = () => {
        
         <div className="grid md:grid-cols-4 md:gap-4">
             {
-                PortfolioData.map((proj:IPortfolio) => (
-                    <PopOverComponent appTitle={proj.appTitle} description={proj.description} githubLink={proj.githubLink} imgSrc={proj.imgSrc} link={proj.link}/>
+                PortfolioData.map((proj:IPortfolio, i: number) => (
+                    <PopOverComponent appTitle={proj.appTitle} description={proj.description} githubLink={proj.githubLink} imgSrc={proj.imgSrc} link={proj.link} key={i}/>
                 ))
             }
         </div>

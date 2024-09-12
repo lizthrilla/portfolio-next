@@ -6,6 +6,7 @@ export interface IPortfolio {
     githubLink: string;
     imgSrc: any;
     link?: string;
+    key?: number
 }
 
 export const PortfolioData = [

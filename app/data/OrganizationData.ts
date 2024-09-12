@@ -6,6 +6,7 @@ export interface IOrgEntry {
     roleTitle: string;
     imgSrc: any;
     link?: string;
+    key?: number;
 }
 
 export const OrgData = [

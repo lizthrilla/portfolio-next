@@ -1,9 +1,9 @@
 import Image from "next/image"
 import { IOrgEntry } from "@/app/data/OrganizationData"
 
-const OrgEntry: React.FC<IOrgEntry> = ({imgSrc, link, roleTitle, altText}) => {
+const OrgEntry: React.FC<IOrgEntry> = ({imgSrc, link, roleTitle, altText, key}) => {
     return (
-        <div className="col-span-1 my-1">
+        <div className="col-span-1 my-1" key={key}>
             <a href={link} target="_blank" title={`${altText} - ${roleTitle}`}>
                 <Image src={imgSrc} alt={altText} className="size-10/12 mx-auto" />
             </a>

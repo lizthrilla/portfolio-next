@@ -9,8 +9,8 @@ const Orgs = () => {
             <h2 className="uppercase mb-10">Organizations I have worked with:</h2>
             <div className="grid text-center md:grid-cols-5">
                 {
-                    OrgData.map((org:IOrgEntry) => (
-                        <OrgEntry imgSrc={org.imgSrc} link={org.link} altText={org.altText} roleTitle={org.roleTitle} />
+                    OrgData.map((org:IOrgEntry, i: number) => (
+                        <OrgEntry imgSrc={org.imgSrc} link={org.link} altText={org.altText} roleTitle={org.roleTitle} key={i} />
                     ))
                 }
             </div>
