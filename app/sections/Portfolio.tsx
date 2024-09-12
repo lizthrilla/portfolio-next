@@ -15,7 +15,7 @@ const Portfolio = () => {
                 ))
             }
         </div>
-        <h3>Visit my <a href="https://github.com/lizthrilla" target="_blank"> github</a> to see what I'm working on now.</h3>
+        <h3>Visit my <a href="https://github.com/lizthrilla" target="_blank"> github</a> to see what I am working on now.</h3>
     </section>
 
     )
