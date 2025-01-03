@@ -1,5 +1,4 @@
-import {FaPlus} from "react-icons/fa";
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
+
 import PopOverComponent from "../components/Popover/Popover";
 import { IPortfolio, PortfolioData } from "../data/PortfolioData";
 
