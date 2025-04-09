@@ -15,17 +15,17 @@ export const JobsData = [
     {
         company:"Kin Insurance", 
         url: 'https://www.kin.com',
-        dates: "March 2022 - Current",
+        dates: "March 2022 - March 2025",
         title: "Engineering Manager", 
-        description: "Leading the delivery of high-impact engineering projects, ensuring alignment with OKRs and business goals through empathetic leadership, mentoring, and technical expertise.",
-        highlights: "Spearheaded the creation of an Engineering Manager Guild and a Developer Community of Practice within the organization." 
+        description: "I led a high-performing team of developers and QA engineers by fostering a psychologically safe, inclusive environment built on mentorship and collaboration. By optimizing Agile practices—refining sprint cadence and monitoring sprint health—I boosted team productivity by 33% and achieved 100% predictability in feature delivery. I partnered closely with product and design leads to align roadmaps with customer needs, streamlining workflows and accelerating delivery of high-impact features.",
+        highlights: " I also drove company-wide initiatives, including launching a Developer Community of Practice and leading a revamp of Big Room/Continuous Planning, which strengthened cross-team alignment. Through focused coaching and career development, I maintained 100% team retention while nurturing growth, innovation, and knowledge-sharing across the organization." 
     },
     {
         company:"Shogun", 
         url: 'https://www.getshogun.com',
         dates: "June 2021 - March 2022",
         title: "React Engineer", 
-        description: "Worked on Shogun Page Builder to empower brands to optimize their online stores to deliver exceptional experiences.",
+        description: "I engineered scalable, high-performance front-end features for e-commerce SaaS platforms using React and TypeScript, improving load times and interactivity to boost user engagement. Working closely with product, design, and QA teams, I helped drive tight feedback loops and fast iteration cycles, ensuring development stayed closely aligned with real customer needs.",
         highlights: "" 
     },
     {
@@ -33,7 +33,7 @@ export const JobsData = [
         url: 'https://www.suncoast.io',
         dates: "March 2019 - March 2022",
         title: "Instructor", 
-        description: "Designed and delivered web development curriculum, focusing on React, front-end development, and industry-relevant trends.",
+        description: "I designed and delivered front-end engineering curriculum with a focus on scalable software design and web accessibility. By mentoring students through real-world projects, I helped them build industry-relevant portfolios that led to high job placement rates. I also collaborated closely with instructors and staff to foster a well-rounded, effective learning environment.Designed and delivered web development curriculum, focusing on React, front-end development, and industry-relevant trends.",
         highlights: "The Academy at Suncoast Developers Guild is a code school that serves people, not profit. We are changing lives and teaching people to be the best software developers they can be." 
     },
     {
@@ -41,15 +41,15 @@ export const JobsData = [
         url: 'https://www.agilethought.com',
         dates: "January 2020 - June 2021",
         title: "Consultant", 
-        description: "Technology consultant specializing in the front end development. Architected and delivered a dynamic Investor Qualification Statement application for a major law firm.",
-        highlights: "Member of the Development Community of Practice team, which works to create learning opportunities for Agile Thought's employees." 
+        description: "I led a cross-functional team in delivering scalable web applications for enterprise clients, aligning technical execution with business goals to ensure projects were delivered on time and within budget. I architected and implemented a scalable Investor Qualification Statement application, and provided technical mentorship across teams.",
+        highlights: "Through the Developer Community of Practice, I helped drive the adoption of engineering best practices and contributed to ongoing internal knowledge-sharing."
     },
     {
         company:"DXC Technology", 
         url: 'https://www.dxc.technology/',
         dates: "May 2019 - January 2020",
         title: "Professional Software Engineer", 
-        description: "Developed custom applications for clients; utilizing React and Angular",
+        description: "I led development projects using React and Angular, with a strong focus on scalability and performance optimization. By collaborating across development, QA, and business teams, I ensured technical solutions were aligned with business requirements and delivered effectively.",
         highlights: "" 
     },
     {
@@ -57,7 +57,7 @@ export const JobsData = [
         url: 'https://www.madmobile.com',
         dates: "January 2018 - May 2019",
         title: "Javascript Developer", 
-        description: "Led a team of developers in delivering two major company websites and a React Native app for a Fortune 25 company.",
+        description: "I led a team of developers in delivering two major company websites and a high-performing React Native mobile app for a Fortune 25 client. Partnering closely with design and product teams, I helped craft innovative native app experiences that balanced user needs with technical feasibility and delivered real business value.",
         highlights: "" 
     },
     {
@@ -65,7 +65,7 @@ export const JobsData = [
         url: 'https://www.danielscorporation.com/',
         dates: "March 2017 - December 2017",
         title: "Fullstack Developer", 
-        description: "Built and managed ecommerce sites for a select group of family owned companies. Working in Ruby, Ruby on Rails, Ember, and Coldfusion",
+        description: "I developed and maintained e-commerce platforms with a focus on improving SEO and user experience. I also led the migration of legacy ColdFusion systems to modern frameworks, including Ruby on Rails and Ember.js, enhancing performance, maintainability, and scalability.",
         highlights: "" 
     },
 ]
