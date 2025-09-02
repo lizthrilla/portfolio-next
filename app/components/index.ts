@@ -1,0 +1,6 @@
+export { default as Navbar } from './Navigation/Navbar' 
+export { default as Footer } from './Footer/Footer'
+export { default as Socials } from './Socials'
+export { default as PopOverComponent } from './Popover/Popover'
+export { default as CaseStudyCard } from './CaseStudyCard/CaseStudyCard'    
+export { default as OrgEntry } from './Org/OrgEntry'

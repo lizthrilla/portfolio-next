@@ -1,5 +1,5 @@
 import { EntryBody, EntryHeader, EntryTitle, EntryWrapper, SectionHeader, SectionWrapper,  } from '@/app/components/Resume/Index';
-import {EducationData, IEducation} from '@/app/data/ResumeData';
+import {EducationData, IEducation} from '@/app/data/index';
 
 
 export default function Education() {
