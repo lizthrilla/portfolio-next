@@ -1,6 +1,6 @@
 
 import { PopOverComponent } from "@/app/components/index";
-import { IPortfolio, PortfolioData } from "@/app/data/index";
+import { IPortfolio, PortfolioData } from "../data/Index";
 
 const Portfolio = () => {
     return (

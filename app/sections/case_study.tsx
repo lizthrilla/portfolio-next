@@ -1,6 +1,6 @@
 import React from 'react';
 import { CaseStudyCard } from '@/app/components/index';
-import { CaseStudyBlurbData, ICaseStudyBlurb } from '@/app/data/index';
+import { CaseStudyBlurbData, ICaseStudyBlurb } from '../data/Index';
 
 export default function CaseStudy() {
   return (

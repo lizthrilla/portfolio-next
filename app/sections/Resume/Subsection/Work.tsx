@@ -1,4 +1,4 @@
-import {JobsData, IJob} from '@/app/data/index';
+import {JobsData, IJob} from '../../../data/Index';
 import { EntryBody, EntryHeader, EntryTitle, EntryWrapper, SectionHeader, SectionWrapper,  } from '@/app/components/Resume/Index';
 
 
