@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import Socials from '../components/Socials'
+import { Socials } from "../components/index";
 
 import profilePic from "@/app/assets/images/headshot.jpeg";
 

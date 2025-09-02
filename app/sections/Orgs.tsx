@@ -1,6 +1,6 @@
 'use client'
-import { IOrgEntry, OrgData } from "../data/OrganizationData";
-import OrgEntry from "../components/Org/OrgEntry";
+import { IOrgEntry, OrgData } from "@/app/data/index";
+import { OrgEntry } from "@/app/components/index";
 
 
 const Orgs = () => {

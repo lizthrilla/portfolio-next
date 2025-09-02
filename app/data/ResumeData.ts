@@ -1,7 +1,7 @@
 
 export interface IJob {
     company: string,
-    url: string,
+    url?: string,
     dates: string,
     title: string,
     description: string,
@@ -13,62 +13,71 @@ export interface IJobList {
 
 export const JobsData = [
     {
-        company:"Kin Insurance", 
-        url: 'https://www.kin.com',
-        dates: "March 2022 - March 2025",
-        title: "Engineering Manager", 
-        description: "I led a high-performing team of developers and QA engineers by fostering a psychologically safe, inclusive environment built on mentorship and collaboration. By optimizing Agile practices—refining sprint cadence and monitoring sprint health—I boosted team productivity by 33% and achieved 100% predictability in feature delivery. I partnered closely with product and design leads to align roadmaps with customer needs, streamlining workflows and accelerating delivery of high-impact features.",
-        highlights: " I also drove company-wide initiatives, including launching a Developer Community of Practice and leading a revamp of Big Room/Continuous Planning, which strengthened cross-team alignment. Through focused coaching and career development, I maintained 100% team retention while nurturing growth, innovation, and knowledge-sharing across the organization." 
+        "company": "Freelance Web Consultant",
+        "url": "/#case-study",
+        "dates": "April 2025 – Present",
+        "title": "Web Consultant",
+        "description": "Provide part-time consulting for small businesses and individuals to enhance their online presence. Work includes website updates, accessibility audits, SEO improvements, and workflow automation using AI tools.",
+        "highlights": "Recent projects: improved accessibility for service websites, optimized SEO for higher rankings, and advised entrepreneurs on integrating AI to streamline operations."
     },
     {
-        company:"Shogun", 
-        url: 'https://www.getshogun.com',
-        dates: "June 2021 - March 2022",
-        title: "React Engineer", 
-        description: "I engineered scalable, high-performance front-end features for e-commerce SaaS platforms using React and TypeScript, improving load times and interactivity to boost user engagement. Working closely with product, design, and QA teams, I helped drive tight feedback loops and fast iteration cycles, ensuring development stayed closely aligned with real customer needs.",
-        highlights: "" 
+      "company": "Kin Insurance",
+      "url": "https://www.kin.com",
+      "dates": "March 2022 - March 2025",
+      "title": "Engineering Manager",
+      "description": "Led a team of 5 engineers and QA in building critical insurance tooling, including the internal-first eFNOL claims intake app and Scribe, a letter automation platform. Balanced high-stakes compliance and hurricane-season deadlines with sustainable delivery, achieving 100% predictability in feature delivery and 33% productivity gains. Partnered with Product, Legal, and Claims to ensure solutions aligned with real-world workflows, reducing adjuster time and legal risk.",
+      "highlights": "Founded Kin’s Developer Community of Practice and Engineering Managers Guild, driving cross-team learning and career growth. Revamped org-wide planning and Scrum adoption, boosting roadmap clarity by 50%. Maintained 100% retention through intentional mentorship and coaching, including promoting a senior engineer to staff level and designing growth plans for associates."
     },
     {
-        company:"The Academy at Suncoast Developers Guild", 
-        url: 'https://www.suncoast.io',
-        dates: "March 2019 - March 2022",
-        title: "Instructor", 
-        description: "I designed and delivered front-end engineering curriculum with a focus on scalable software design and web accessibility. By mentoring students through real-world projects, I helped them build industry-relevant portfolios that led to high job placement rates. I also collaborated closely with instructors and staff to foster a well-rounded, effective learning environment.Designed and delivered web development curriculum, focusing on React, front-end development, and industry-relevant trends.",
-        highlights: "The Academy at Suncoast Developers Guild is a code school that serves people, not profit. We are changing lives and teaching people to be the best software developers they can be." 
+      "company": "Shogun",
+      "url": "https://www.getshogun.com",
+      "dates": "June 2021 - March 2022",
+      "title": "React Engineer",
+      "description": "Engineered modular React and TypeScript components for Shogun’s Page Builder SaaS platform, empowering e-commerce merchants to launch and customize storefronts on Shopify and beyond. Partnered across design, product, and QA for rapid, customer-centered iteration.",
+      "highlights": "Interviewed and mentored early QA hires, helping scale Shogun’s testing maturity."
     },
     {
-        company:"Agile Thought", 
-        url: 'https://www.agilethought.com',
-        dates: "January 2020 - June 2021",
-        title: "Consultant", 
-        description: "I led a cross-functional team in delivering scalable web applications for enterprise clients, aligning technical execution with business goals to ensure projects were delivered on time and within budget. I architected and implemented a scalable Investor Qualification Statement application, and provided technical mentorship across teams.",
-        highlights: "Through the Developer Community of Practice, I helped drive the adoption of engineering best practices and contributed to ongoing internal knowledge-sharing."
+      "company": "The Academy at Suncoast Developers Guild",
+      "url": "https://www.suncoast.io",
+      "dates": "March 2019 - March 2022",
+      "title": "Instructor",
+      "description": "Designed and taught front-end engineering curriculum with a focus on React, accessibility, and scalable design. Mentored students through project-based learning, preparing them with industry-ready portfolios and strong placement outcomes.",
+      "highlights": "Created accessibility training adopted across all cohorts; collaborated with staff to foster an inclusive, mission-driven learning environment."
     },
     {
-        company:"DXC Technology", 
-        url: 'https://www.dxc.technology/',
-        dates: "May 2019 - January 2020",
-        title: "Professional Software Engineer", 
-        description: "I led development projects using React and Angular, with a strong focus on scalability and performance optimization. By collaborating across development, QA, and business teams, I ensured technical solutions were aligned with business requirements and delivered effectively.",
-        highlights: "" 
+      "company": "AgileThought",
+      "url": "https://www.agilethought.com",
+      "dates": "January 2020 - June 2021",
+      "title": "Lead Technology Consultant",
+      "description": "Architected and delivered the frontend of a $100T investor onboarding platform for Kirkland & Ellis, cutting qualification turnaround from days to minutes while ensuring regulatory compliance. Balanced technical execution with business goals, leading cross-functional delivery and mentoring developers.",
+      "highlights": "Contributed to Developer Community of Practice, championing engineering best practices and knowledge-sharing."
     },
     {
-        company:"Mad Mobile", 
-        url: 'https://www.madmobile.com',
-        dates: "January 2018 - May 2019",
-        title: "Javascript Developer", 
-        description: "I led a team of developers in delivering two major company websites and a high-performing React Native mobile app for a Fortune 25 client. Partnering closely with design and product teams, I helped craft innovative native app experiences that balanced user needs with technical feasibility and delivered real business value.",
-        highlights: "" 
+      "company": "DXC Technology",
+      "url": "https://www.dxc.technology/",
+      "dates": "May 2019 - January 2020",
+      "title": "Professional Software Engineer",
+      "description": "Engineered custom web apps on the Cornerstone learning platform for Fortune 500 clients, delivering scalable, brand-aligned solutions for companies including Honeywell, Samsung, and PwC.",
+      "highlights": ""
     },
     {
-        company:"Daniels Corporation", 
-        url: 'https://www.danielscorporation.com/',
-        dates: "March 2017 - December 2017",
-        title: "Fullstack Developer", 
-        description: "I developed and maintained e-commerce platforms with a focus on improving SEO and user experience. I also led the migration of legacy ColdFusion systems to modern frameworks, including Ruby on Rails and Ember.js, enhancing performance, maintainability, and scalability.",
-        highlights: "" 
+      "company": "Mad Mobile",
+      "url": "https://www.madmobile.com",
+      "dates": "January 2018 - May 2019",
+      "title": "JavaScript Developer",
+      "description": "Co-led React Native app development for a Fortune 25 retail client, powering $40B+ in annual revenue. Partnered with design and product to build innovative mobile experiences and launched two major company websites.",
+      "highlights": "Designed and shipped Concierge’s fulfillment feature, transforming physical storefronts into on-demand fulfillment hubs."
     },
-]
+    {
+      "company": "Daniels Corporation",
+      "url": "https://www.danielscorporation.com/",
+      "dates": "March 2017 - December 2017",
+      "title": "Fullstack Developer",
+      "description": "Maintained and modernized e-commerce platforms across multiple product lines. Migrated legacy ColdFusion systems to Rails and Ember.js, improving scalability and maintainability.",
+      "highlights": "Boosted growth at JupiterBike.com by optimizing SEO, achieving top search rankings and increased visibility."
+    }
+  ]
+  
 
 export interface IEducation {
     school: string,

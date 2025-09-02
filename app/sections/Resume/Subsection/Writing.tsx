@@ -1,4 +1,4 @@
-import {IWriting, WritingData} from '@/app/data/ResumeData';
+import {IWriting, WritingData} from '@/app/data/index';
 import { EntryBody, EntryHeader, EntryTitle, EntryWrapper, SectionHeader, SectionWrapper,  } from '@/app/components/Resume/Index';
 
 
