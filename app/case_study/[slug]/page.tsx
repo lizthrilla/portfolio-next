@@ -1,7 +1,7 @@
 import React from 'react';
 import { Footer } from '../../components/index';  
 import Link from 'next/link';
-import { CaseStudies } from '@/app/data/index';
+import { CaseStudies } from '../../data/Index';
 
 export default function CaseStudyPage({ params }: { params: { slug: string } }) {
   const caseStudy = CaseStudies[params.slug as keyof typeof CaseStudies];

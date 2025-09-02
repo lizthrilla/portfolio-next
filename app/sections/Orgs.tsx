@@ -1,5 +1,5 @@
 'use client'
-import { IOrgEntry, OrgData } from "@/app/data/index";
+import { IOrgEntry, OrgData } from "../data/Index";
 import { OrgEntry } from "@/app/components/index";
 
 

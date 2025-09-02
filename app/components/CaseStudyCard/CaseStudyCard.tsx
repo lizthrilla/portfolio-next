@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { ICaseStudyBlurb } from '@/app/data/index'
+import { ICaseStudyBlurb } from '../../data/Index'
 
 export default function CaseStudyCard({ title, description, technologies, slug }: ICaseStudyBlurb) {   
   return (
