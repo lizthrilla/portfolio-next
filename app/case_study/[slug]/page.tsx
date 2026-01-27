@@ -30,7 +30,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
       <main className="pt-24 px-4">
         <div className="max-w-4xl mx-auto">
           {/* Back Button */}
-          <Link href="/" className="group inline-flex items-center text-blue-400 group-hover:text-blue-300 mb-8 transition-colors">
+          <Link href="/" className="group inline-flex items-center hover:text-blue mb-8 transition-colors">
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
@@ -41,7 +41,7 @@ export default function CaseStudyPage({ params }: { params: { slug: string } }) 
           <div className="mb-12">
             <h1 className="text-5xl font-bold mb-6">{caseStudy.title}</h1>
             <p className="text-xl text-gray-300 mb-6">{caseStudy.description}</p>
-            <Link href={caseStudy.website} className="text-xl text-blue-400 hover:!text-blue-300 mb-8">Visit the website</Link>
+            <Link href={caseStudy.website} className="text-xl hover:text-blue mb-8">Visit the website</Link>
             
             {/* Tech Stack */}
             <div className="flex flex-wrap gap-3">

@@ -4,7 +4,7 @@ import { IPortfolio, PortfolioData } from "../data/Index";
 
 const Portfolio = () => {
     return (
-    <section id="portfolio" className="bg-dark text-lightt w-full py-20 flex flex-col items-center justify-center">
+    <section id="portfolio" className="bg-gray-dark text-light w-full py-16 flex flex-col items-center justify-center">
         <h3 className="uppercase text-xl tracking-wide">Some Fun Apps I Have Built</h3>
        
         <div className="grid md:grid-cols-4 md:gap-4">

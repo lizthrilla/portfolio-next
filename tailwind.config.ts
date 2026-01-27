@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      'blue': '#1db5cb',
+      'blue': '#0e7490', // Darkened from #1db5cb for WCAG AA contrast (5.3:1 with white)
       'default': '#1d1f1f',
       'gray-dark': '#2b2b2b',
       'gray-light': '#ebeeee',

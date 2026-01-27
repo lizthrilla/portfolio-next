@@ -13,6 +13,13 @@ export interface IJobList {
 
 export const JobsData = [
     {
+        "company": "Agile Brains Consulting",
+        "dates": "January 2026 - Present",
+        "title": "Senior Software Engineer (Lead Frontend)",
+        "description": "Contract engagement building custom software for a multinational P&C insurance company with over 20 specialized solutions.",
+        "highlights": ""
+    },
+    {
         "company": "Freelance Web Consultant",
         "url": "/#case-study",
         "dates": "April 2025 – Present",

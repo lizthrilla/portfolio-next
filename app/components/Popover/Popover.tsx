@@ -10,7 +10,7 @@ const PopOverComponent: React.FC<IPortfolio> = ({appTitle, description, githubLi
             <Popover className="relative flex flex-col items-center">
                 <PopoverButton>{appTitle}</PopoverButton>
                 <Image src={imgSrc} className="w-60 h-60 static" alt={appTitle}/>
-                <PopoverPanel className="absolute top-7 flex flex-col bg-gray-dark/85 text-light w-60 h-60 p-1 text-m leading-1">
+                <PopoverPanel className="absolute top-7 flex flex-col bg-gray-dark/85 text-light w-60 h-60 p-1 text-base leading-tight">
                     <p className="pb-3">{description}</p>
                     <a href={githubLink} title={`Github link to ${appTitle}`} target="_blank" className="flex flex-row items-center justify-start pb-2">
                        <FaGithub /> Github
