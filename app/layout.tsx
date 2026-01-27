@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Navbar } from "./components/index";
+import { Navbar, SkipLink } from "./components/index";
 import "./globals.css";
 // import "./main.css";
 
@@ -19,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <SkipLink />
         <Navbar />
         {children}
       </body>

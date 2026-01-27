@@ -14,7 +14,7 @@ export default function Intro() {
             <p className="py-5">
                 Welcome and scroll to learn more!
             </p>
-            <FaAngleDoubleDown />
+            <FaAngleDoubleDown aria-hidden="true" className="animate-bounce-subtle text-2xl text-yellow" />
           </div>
 
     )

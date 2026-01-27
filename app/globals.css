@@ -41,3 +41,67 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Bounce animation for scroll indicator */
+@keyframes bounce-subtle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.animate-bounce-subtle {
+  animation: bounce-subtle 2s ease-in-out infinite;
+}
+
+/* Global focus-visible styles for accessibility */
+@layer base {
+  /* Focus styles for links and interactive elements */
+  a:focus-visible,
+  button:focus-visible,
+  [role="button"]:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #fedd32;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Focus styles on dark backgrounds */
+  .bg-gray-dark a:focus-visible,
+  .bg-gray-dark button:focus-visible,
+  .bg-blue a:focus-visible,
+  .bg-blue button:focus-visible {
+    outline-color: #fedd32;
+  }
+
+  /* Focus styles on light backgrounds */
+  .bg-light a:focus-visible,
+  .bg-light button:focus-visible,
+  .bg-gray-light a:focus-visible,
+  .bg-gray-light button:focus-visible {
+    outline-color: #0e7490;
+  }
+
+  /* Smooth transition for focus states */
+  a,
+  button,
+  [role="button"] {
+    transition: color 0.2s ease-in-out, outline-color 0.2s ease-in-out;
+  }
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

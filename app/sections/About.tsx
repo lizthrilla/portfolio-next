@@ -5,9 +5,9 @@ import { Socials } from "../components/index";
 import profilePic from "@/app/assets/images/headshot.jpeg";
 
 const About = () => (
-  <section id="about" className="bg-gray-dark grid md:grid-cols-10 md:gap-5 items-center px-5 py-10">
+  <section id="about" className="bg-gray-dark grid md:grid-cols-10 md:gap-5 items-center px-5 py-16">
       <div className="md:col-span-2 md:col-start-2 m-5">
-        <Image className="profile-pic rounded-full size-3/4 m-auto md:size-full" src={profilePic} alt="" />
+        <Image className="profile-pic rounded-full size-3/4 m-auto md:size-full" src={profilePic} alt="Elizabeth Tiller, professional headshot" />
       </div>
       <div className="md:col-span-8 md:col-start-4 md:col-end-9">
         <div className="pb-5">

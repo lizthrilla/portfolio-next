@@ -37,7 +37,7 @@ interface EntryHeaderProps {
             {company}
           </a>
         </h3>
-        <h4 className="text-l text-soft">{title}</h4>
+        <h4 className="text-lg text-soft">{title}</h4>
         <h4 className="text-soft">{dates}</h4>
       </div>
   

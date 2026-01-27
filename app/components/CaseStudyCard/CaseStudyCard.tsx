@@ -4,7 +4,7 @@ import { ICaseStudyBlurb } from '../../data/Index'
 
 export default function CaseStudyCard({ title, description, technologies, slug }: ICaseStudyBlurb) {   
   return (
-    <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-300">
+    <div className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-300 motion-reduce:transform-none motion-reduce:transition-none">
         <div className="p-6">
             <h3 className="text-xl font-semibold text-gray-dark mb-3">{title}</h3>
             <p className="text-gray-300 mb-4">
