@@ -17,7 +17,8 @@ export const JobsData = [
         "url": "https://integrisgroup.com/",
         "dates": "May 2026 - Current",
         "title": "AI Development Lead",
-        "description": "Leading AI-assisted development workflows and engineering quality for a fixed-bid platform modernization engagement serving a Fortune 100 hospitality client. Architecting Sanity CMS and Next.js integration pipelines, establishing AI quality gates and standards for AI-generated code, and training global development teams on AI-assisted workflows (MCP, v0, prompt engineering). Owning metrics around AI acceleration (time saved, component generation rates, revision efficiency) and ensuring production readiness through Core Web Vitals compliance, integration testing, and progressive rollout validation."
+        "description": "Leading AI-assisted development workflows and engineering quality for a fixed-bid platform modernization engagement serving a Fortune 100 hospitality client. Architecting Sanity CMS and Next.js integration pipelines, establishing AI quality gates and standards for AI-generated code, and training global development teams on AI-assisted workflows (MCP, v0, prompt engineering). Owning metrics around AI acceleration (time saved, component generation rates, revision efficiency) and ensuring production readiness through Core Web Vitals compliance, integration testing, and progressive rollout validation.",
+        "highlights": ""
     },
     {
         "company": "Agile Brains Consulting",
