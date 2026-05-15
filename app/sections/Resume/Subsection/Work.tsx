@@ -15,7 +15,7 @@ export default function Work() {
                             </EntryHeader>
                             <EntryBody>
                                 <p>{job.description}</p>
-                                <p>{job.highlights}</p>
+                                <p className="pt-2">{job.highlights}</p>
                             </EntryBody>
                         </div>
 
