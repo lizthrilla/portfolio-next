@@ -7,8 +7,8 @@ export default function Intro() {
               Liz Tiller
             </h1>
             <p>
-                I am a Tampa based <span className="text-yellow">engineering manager</span>, <span className="text-yellow">front end developer</span>, and
-                <span className="text-yellow"> community organizer,</span> who is passionate about front end development and teaching the next generation of programmers. 
+                I am a Tampa based <span className="text-yellow">tech leader</span>, <span className="text-yellow">full-stack developer</span>, and
+                <span className="text-yellow"> AI systems builder,</span> focused on accelerating delivery through intelligent workflows and thriving teams. 
               
             </p>
             <p className="py-5">

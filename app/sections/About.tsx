@@ -13,13 +13,13 @@ const About = () => (
         <div className="pb-5">
           <h2 className="text-3xl font-bold">About Me</h2>
           <p>
-            I am a recovering film academic turned front end developer and engineering manager. As an empathetic and results-driven Engineering Manager, I am dedicated to cultivating a thriving, cohesive team environment. My approach is holistic, emphasizing the well-being and productivity of every team member. I prioritize building trust, fostering accountability, and encouraging experimentation to unlock our collective potential.
+            I am a recovering film academic turned developer and technical leader who believes technology works best when teams do. I lead with empathy, move with urgency, and stay grounded by the people and interests that matter most: teaching, mentorship, accessibility, and the small joys that make life worth living.
           </p>
           <p>
-            I am passionate about web accessibility, over analyzing movies,
-            <a className="text-yellow hover:text-blue" href="https://www.instagram.com/thegreatgizmodo/"> my cats </a>,
-            <a className="text-yellow hover:text-blue" href="http://michaelenash.com"> my husband</a> and
-            <a className="text-yellow hover:text-blue" href="https://www.midnightlotusdance.com/"> belly dance</a>.
+            Outside of work: film nerd,
+            <a className="text-yellow hover:text-blue" href="https://www.instagram.com/thegreatgizmodo/"> cat enthusiast </a>,
+            <a className="text-yellow hover:text-blue" href="https://www.midnightlotusdance.com/"> belly danceer</a>, and cheering on
+            <a className="text-yellow hover:text-blue" href="http://michaelenash.com"> my incredible husband</a> 
           </p>
         </div>
       <Socials />

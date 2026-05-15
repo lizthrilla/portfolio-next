@@ -13,11 +13,20 @@ export interface IJobList {
 
 export const JobsData = [
     {
-        "company": "Agile Brains Consulting",
-        "dates": "January 2026 - Present",
-        "title": "Senior Software Engineer (Lead Frontend)",
-        "description": "Contract engagement building custom software for a multinational P&C insurance company with over 20 specialized solutions.",
+        "company": "Integris Group",
+        "url": "https://integrisgroup.com/",
+        "dates": "May 2026 - Current",
+        "title": "AI Development Lead",
+        "description": "Leading AI-assisted development workflows and engineering quality for a fixed-bid platform modernization engagement serving a Fortune 100 hospitality client. Architecting Sanity CMS and Next.js integration pipelines, establishing AI quality gates and standards for AI-generated code, and training global development teams on AI-assisted workflows (MCP, v0, prompt engineering). Owning metrics around AI acceleration (time saved, component generation rates, revision efficiency) and ensuring production readiness through Core Web Vitals compliance, integration testing, and progressive rollout validation.",
         "highlights": ""
+    },
+    {
+        "company": "Agile Brains Consulting",
+        "url": "https://www.agilebrainsconsulting.net/",
+        "dates": "January 2026 - May 2026",
+        "title": "Senior Software Engineer (Lead Frontend)",
+        "description": "Contract engagement building custom software for a multinational P&C insurance company with over 20 specialized solutions. Led frontend architecture, mentored developers, and shipped production-grade React and Next.js components under tight deadlines.",
+        "highlights": "Built and deployed reusable AI skills to accelerate feature investigation and code review workflows, delivering a 4x speed improvement on legacy system analysis and enabling the team to move faster with confidence."
     },
     {
         "company": "Freelance Web Consultant",
